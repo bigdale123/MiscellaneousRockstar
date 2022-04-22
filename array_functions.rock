@@ -1,0 +1,50 @@
+PrintArray takes Arr
+    If Arr is not less than 1
+        Join Arr with ","
+        Shout "["+Arr+"]"
+
+    Else
+        Shout "["+Arr at 0+"]"
+
+SelectionSort takes Arr
+    Let Len be Arr + 1
+    I is 0
+    While I is lower than Len
+        Let J be I
+        Let Min Index be I
+        While J with 1 is lower than Len
+            If Arr at Min Index is greater than Arr at J
+                Let Min Index be J
+
+            Let J be with 1
+
+        Let Temp be Arr at I
+        Let Arr at I be Arr at Min Index
+        Let Arr at Min Index be Temp
+        Let I be with 1 
+
+    Give Arr back
+
+InsertionSort takes Arr
+    Let Len be Arr + 1
+    I is 0
+    While I is lower than Len
+        Let Key be Arr at I
+        Let J be I without 1
+        Let J One be J with 1
+        While J is as high as 0 and Key is lower than Arr at J
+            Let Arr at J One be Arr at J
+            Let J be without 1
+        
+        Let Arr at J One be Key
+        Let I be with 1
+
+
+
+Rock X with 5,3,7,2,8,1,9,6,4
+PrintArray taking X
+
+InsertionSort taking X
+PrintArray taking X
+
+

@@ -1,0 +1,142 @@
+(Printing)
+Shout "Hello World!"
+
+(Simple Variables)
+Variable is 5
+Shout Variable
+
+(Common variables)
+A variable is 5
+The variable is 6
+Shout A variable
+Shout The variable
+
+(Proper Variables)
+Jimi Hendrix is 16
+David Lee Roth is 32
+Shout Jimi Hendrix
+
+(Pronouns)
+Shout it
+Shout him
+
+(Value Types)
+Love is mysterious
+A wish is nothing (multiple possible keywords for null)
+The truth is right (multiple possible keywords for true)
+Variable is 6
+String Variable is "Rockstar!"
+
+(Arrays)
+Let the array at 0 be 1
+Shout the array at 0
+
+Rock the array with 2, 3, 4, 5
+Shout the array at 3
+
+Shout Roll the array
+
+(Poetic Literals)
+The devil says Hello\n
+
+(Quick Note: Numeric-type poetic literals, each word's length modulo ten represnts
+    One digit of the number. So in this case, about represents 500, to represents
+    20, and leave represents 5. Summed together, 525)
+John was about to leave (Numeric Value: 525)
+Shout John
+
+Ryan's seething
+Shout Ryan
+
+(Splitting Strings)
+Cut "a,b,c" into the array with ","
+Shout the array at 0
+
+(In place splitting is possible, if the input is a variable)
+Let the array be "a,b,c,d,e,f"
+Cut the array with ","
+Shout the array at 3
+
+(Joining Arrays)
+Join the array
+Shout the array
+
+(Casting Variables)
+X is 65
+Cast X
+Shout X
+
+(Incrementing And Decrementing)
+Iterator is 5
+Build Iterator up
+Shout Iterator
+
+Knock Iterator down, down
+Shout Iterator
+
+(Math)
+X is 25
+Y is 15
+
+Shout X plus Y
+Shout X minus Y
+Shout X times Y
+Shout X over Y
+
+(The following are the exact same as above, with different keywords)
+Shout X with Y
+Shout X without Y
+Shout X of Y
+Shout X between Y
+
+(Compound Assignment Operators)
+Let X be with 10 (+=)
+Let X be without 20 (-=)
+Let X be over 5(/=)
+
+(Rounding)
+X is 9.6
+Turn up X
+Shout X
+X is 9.6
+Turn down X 
+Shout X
+
+(List Arithmetic)
+Rock the array with 1,2,3,4
+Let X be with the array
+Shout X
+
+(Short note about blocks of code, like loops and if statements:
+    All blocks in Rockstar are ended with a blank line.
+    Anything between a blank line an a "Block Starter", like if
+    Or while, is considered part of the block)
+
+(Conditional Flow)
+X is 4
+If X is not 5
+Say "Bruh"
+Say "Momento"
+
+If X is 4
+Say "Moment"
+
+(Input Output)
+Listen to My variable
+Shout My variable+"!"
+
+(Looping)
+Iterator is above
+While Iterator ain't nothing
+Shout Iterator
+Knock Iterator down
+
+(Functions)
+(This function is taken from the FizzBuzz Minimalist example.)
+Modulus takes Number and Divisor
+While Number is as high as Divisor
+Put Number minus Divisor into Number
+
+Give Number back
+
+Shout Modulus taking 5,2
